@@ -46,7 +46,7 @@ exports.config = {
         //
         browserName: 'chrome',
         chromeOptions: {
-          args: ["--disable-gpu", "--window-size=1080,700" ]
+          args: ["--disable-gpu", "--headless", "--window-size=1080,700" ]
         }
     }],
     //

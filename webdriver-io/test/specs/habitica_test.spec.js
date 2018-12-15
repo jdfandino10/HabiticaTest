@@ -43,7 +43,7 @@ function deleteTask(name) {
   browser.pause(2500);
   var text = browser.alertText();
   browser.alertAccept();
-  assert.ok(text.indexOf("borrar") >= 0, "Wrong msg: " + text);
+  assert.ok(text.indexOf("delete") >= 0, "Wrong msg: " + text + ". Expected it to include: delete");
   browser.pause(2500);
 }
 

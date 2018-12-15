@@ -1,0 +1,5 @@
+[1215/105435.120:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[1215/105435.122:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[1215/105435.126:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1215/105435.126:ERROR:exception_snapshot_win.cc(88)] thread ID 19312 not found in process
+[1215/105435.127:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
