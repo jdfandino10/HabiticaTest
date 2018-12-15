@@ -7,7 +7,7 @@ Scenario Outline: Login failed with wrong inputs
     When I open the login screen
     And I fill with <username> and <password>
     And I try to login
-    Then I expect to see incorrectos
+    Then I expect to see incorrect
 
     Examples:
       | username            | password |

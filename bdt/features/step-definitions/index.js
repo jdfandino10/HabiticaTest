@@ -30,7 +30,7 @@ function deleteTask(name) {
   browser.pause(1500);
   var text = browser.alertText();
   browser.alertAccept();
-  expect(text).to.have.string("borrar");
+  expect(text).to.have.string("delete");
   browser.pause(2500);
 }
 
